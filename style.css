@@ -105,9 +105,10 @@ body {
 }
 
 .skills-list dt {
-  padding-left: 32px;
+  padding-left: 0px;
   background-repeat: no-repeat;
   background-position: left;
+  background-image: none;
 }
 
 .skill-html {
@@ -121,18 +122,18 @@ body {
 .level {
   margin: 4px 0 16px;
   padding: 0;
-  height: 14px;
+  height: 20px;
   font-size: 0;
   background-color: #ffffff;
   border: 1px solid #86c3fa;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .level div {
   margin: 1px;
-  height: 12px;
+  height: 18px;
   background-color: #288be6;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .portfolio {
@@ -169,7 +170,7 @@ body {
   color: #ffffff;
 }
 
-.works-button {
+.works_button {
   margin-top: 30px;
   padding: 6px 20px;
   display: inline-block;
@@ -179,6 +180,18 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+}
+
+.works-button {
+margin-top: 30px;
+padding: 8px 20px;
+display: inline-block;
+background: #FFA4A7;
+box-shadow: 4px 4px 20px rgba(255, 182, 185, 0.88);
+border-radius: 30px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
 }
 
 .page-footer {
